@@ -1,5 +1,5 @@
 """
-#Autor: Bragança
+#Autor: António Brito / Carlos Bragança
 #Data: 2019
 #Objectivo: Calcular a Área de um triângulo sendo dados os valores
 # da base e da altura.
@@ -7,11 +7,13 @@
 
 """
 #Variáveis:
-Base = float()  #Base do triângulo
-Altura = float()  #Altura do triângulo
-Area = float()  #Área do triângulo
-Base = float(input("Base do triângulo: "))
-Altura = float(input("Altura do triângulo: "))
-Area = Base * Altura / 2
+base = float()  #Base do triângulo
+altura = float()  #Altura do triângulo
+area = float()  #Área do triângulo
 
-print("Área do triângulo = " + str(Area))
+
+base = float(input("Base do triângulo: "))
+altura = float(input("Altura do triângulo: "))
+area = base * altura / 2
+
+print("Área do triângulo = " + str(area))
